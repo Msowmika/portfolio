@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container1{
+    display: flex;
+    height: 80px;
+    background-color: #178582;
+  }
+  .mainMenu{
+    display: flex;
+  }
+
+  .container2{
+    display: flex;
+    flex-direction: row;
+    height: 645px;
+    color: white;
+    background-color: #0a1828;
+  }
+  
+  .head{
+    display: flex;
+    margin-left: -2px;
+  }
+  .container3{
+    display: flex;
+    flex-direction: row;
+  }
+  .image{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 100px;
+    filter: drop-shadow(10px 10px 15px rgb(205, 211, 211));
+  }
+a{
+  margin-left: 200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+h1{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+  #para1{
+    margin-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    color: #ff6347;
+  }
+  
+  /* Section Styling */
+  /* section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+ 
+  } */
+
+  .section{
+    position: relative;
+    display: none;
+     color: white;
+     margin: 150px;
+     height: 300px;
+     box-shadow: 2px 5px 5px 2px slategrey;
+     background-color: #bfa181;
+  }
+  #home {
+    text-align: center;
+    background: #ff6347;
+    color: #fff;
+    padding: 5rem 2rem;
+  }
+  
+  #home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* #projects, #contact {
+    display: none;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  } */
+  
+  .skills-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-left: 550px;
+  }
+  
+  .headSkill{
+    position: absolute;
+    margin-left: 535px;
+    padding: 20px;
+  }
+  #btn:hover{
+    width:2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .btn1, .btn2, .btn3, .btn4{
+      background: none;
+      border: none;
+      font-family: "Montserrat", serif;
+      font-weight: 600;
+      font-size: 15px;
+  }
+  .btn1{
+    margin-left: 200px;
+  }
+  .btn2{
+    margin-left: 300px;
+  }
+  .btn3{
+    margin-left: 380px;
+  }
+  .btn4{
+    margin-left: 400px;
+  }
+  #about {
+    margin-left: 200px;
+    width: 600px;
+  }
+
+  #projects .project {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    padding: 70px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .project h3 {
+    color: whitesmoke;
+  }
+  
+  .project a {
+    color: #ff6347;
+    position: absolute;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
+  .headProject{
+    position:absolute;
+    padding-top: 20px;
+    margin-left: 550px;
+  }
+  /* Contact Section */
+  #contact p, #resume p{
+    position: absolute;
+    padding: 100px;
+    margin-left: 300px;
+  }
+  .resume-btn, .contact-btn{
+    background-color:#f44336;
+    width: 150px;
+    height:50px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .headContact, .headResume{
+    margin-left: 530px;
+    padding: 10px;
+    position: absolute;
+  }
+  .close-btn{
+    position: absolute;
+    top: 10px;      
+    right: 10px;    
+    padding: 5px 10px;
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .footer{
+    margin-top: 80px;
+    font-size: 12px;
+  }
+  /* Responsive */
+  @media (max-width: 768px) {
+    header nav {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    header nav a {
+      margin: 0.5rem 0;
+    }
+  
+    #home h1 {
+      font-size: 2rem;
+    }
+  }
+  

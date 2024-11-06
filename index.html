@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container1">
+        <button id="btn" class="btn1" onclick="openSection('skills')">Skills</button>
+        <button id="btn" class="btn2" onclick="openSection('projects')">Projects</button>
+        <button id="btn" class="btn3" onclick="openSection('resume')">Resume</button>
+        <button id="btn" class="btn4" onclick="openSection('contact')">Contact</button>
+    </div>
+    <div class="container2" id="mainMenu">
+    
+
+    <!-- About Section -->
+    <div id="about">
+        <h1 class="head">Welcome!</h1>
+        <h2>Hello, I'm SOWMIKA</h2>
+        <p id="para1">Frontend Developer | Web Enthusiast</p>
+        <p id="para1">I'm a frontend developer with a passion for creating interactive and responsive websites. I specialize in HTML, CSS, and JavaScript, and love learning new technologies to enhance my skills.</p>
+        <footer>
+            <p class="footer">&copy; 2023 [Your Name]. All rights reserved.</p>
+        </footer>
+        </div>
+        <div class="container3">
+            <img class='image' src="sowmikaimg.jpg" alt="image">
+        </div>
+        
+    </div>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <button class="close-btn"  onclick="backToMenu()">X</button>
+        <h2 class="headSkill">Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <button class="close-btn" onclick="backToMenu()">X</button>
+        <h2 class="headProject">Projects</h2>
+        <div class="project">
+            <h3>Calculator</h3>
+            <p>A simple calculator application which is built with the basic  HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/Msowmika/micropro3.git" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Quiz App</h3>
+            <p>An interactive quiz app that allows users to answer questions and  get instant feedback.</p>
+            <a href="https://github.com/Msowmika/QuizApp.git" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="resume" class="section">
+        <button class="close-btn" onclick="backToMenu()">X</button>
+        <h2 class="headResume">Resume</h2>
+        <p>You can view my resume by clicking the link below:</p>
+        <a href="https://drive.google.com/file/d/1d-uOb_BNMwCD_cZQTboMG3ex_tCxzYU0/view?usp=drivesdk" class="resume-btn">View Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <button class="close-btn" onclick="backToMenu()">X</button>
+        <h2 class="headContact">Contact Me</h2>
+        <p>If you'd like to connect or discuss a project, feel free to reach out!</p>
+        <a href="mailto:sowmikamuppaneni034@gmail.com" class="contact-btn">Email Me</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
